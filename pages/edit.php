@@ -42,6 +42,8 @@ if(isset($_POST['update'])) {
         echo "<script>alert('Gagal update data!');</script>";
     }
 }
+
+
 ?>
 
 <!DOCTYPE html>

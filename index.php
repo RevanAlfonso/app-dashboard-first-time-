@@ -1,10 +1,11 @@
 <?php 
 
 include './config/koneksi.php';
-if (!isset($_SESSION['login'])) {
-      header("Location: ./auth/login.php");
-      exit;
-}
+// if (!isset($_SESSION['login'])) {
+//       header("Location: ./auth/login.php");
+//       exit;
+// }
+
 session_start();
 ?>
 

@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include '../config/koneksi.php';
-include '../auth/cek_login.php';
+// include '../auth/cek_login.php';
 
 if(isset($_POST['login'])) {
     $username = $_POST['username'];
